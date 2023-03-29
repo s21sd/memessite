@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body { 
+    background-image: url(img/if.jpg);
+    height: 100vh;
+    padding: 0, 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f2c09;
+
+}
+
+.meme-gen {
+    position: absolute;
+    top: 85px;
+    width: 80vmin;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border-radius: 23px;   
+    height: 130px;
+    Opacity: 1;
+
+}
+ h1{
+    position: absolute;
+    top: 20px;
+    margin: 0px;
+}
+h1:hover{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+#search {
+    Display: Block;
+    Background-Color: #987533;
+    Border: None;
+    Padding: 5px;
+    Font-Size: 18px;
+    Color: #171721;
+    Font-Weight: 600;
+    Padding: 12px 25px;
+    Margin: 19px Auto;
+    Border-Radius: 5px;
+    Cursor: Pointer;
+    Outline: None;
+}
+#search:hover{
+    Background-Color: #f4b746;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .jokeclass
+    {
+        font-size: 1rem;
+    }
+}
+
+
+
+.meme-gen img{
+    height: 430px;
+    object-fit: cover;
+} 
